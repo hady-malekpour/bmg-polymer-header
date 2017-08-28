@@ -1,0 +1,31 @@
+{
+  "entrypoint": "bmg-polymer-header.html",
+  "fragments": [],
+  "sources": [
+    "src/**/*",
+    "assets/**/*",
+    "bmg-polymer-header.html"
+  ],
+  "extraDependencies": [
+    "bower_components/webcomponentsjs/webcomponents-lite.js"
+  ],
+  "builds": [
+    {
+      "bundle": true,
+      "js": {
+        "minify": true
+      },
+      "css": {
+        "minify": true
+      },
+      "html": {
+        "minify": true
+      }
+    }
+  ],
+  "lint": {
+    "rules": [
+      "polymer-2"
+    ]
+  }
+}

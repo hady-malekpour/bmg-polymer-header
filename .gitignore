@@ -1,0 +1,10 @@
+/.classpath
+/.project
+/.settings
+/.idea
+/.idea_modules
+/*.ipr
+/*.iml
+/*.iws
+/target
+/bower_components
